@@ -48,16 +48,16 @@ b{
 }
 .wrapper{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10%;
-    overflow: hidden;
+    /* padding: 0 10%; */
+    /* overflow: hidden; */
 }
-.column{
-    width: 40%;
-}
+/* .column{
+    max-width: 30%;
+} */
 button{
     outline: none;
     border: none;
@@ -67,7 +67,7 @@ button{
     color: #f3f5f8;
     background-color: #3d535f;
     padding: 8px 14px;
-    margin: 40px 5px;
+    margin: 2rem 0.5rem;
     letter-spacing: 2px;
     box-shadow: 0 15px 10px rgba(0,0,0,0.4);
 }
@@ -76,7 +76,7 @@ button:hover{
 }
 
 .imgbox{
-    width: 50%;
+    width: 35%;
 }
 .imgbox img{
     width: 100%;
